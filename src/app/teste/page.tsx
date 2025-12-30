@@ -12,8 +12,6 @@ export default function Test() {
             .then(data => setPost(data.posts))
     }, [])
 
-
-
     return (
         <div>
             <h1 className="text-center mt-5 mb-2 font-bold text-3xl">Posts</h1>
@@ -25,9 +23,9 @@ export default function Test() {
                         <p>{post.body}</p>
                     </div>
                 ))}
-
-
             </div>
+
+            
         </div>
     );
 }
